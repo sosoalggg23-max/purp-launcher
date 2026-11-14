@@ -1,0 +1,32 @@
+[
+  {
+    "id": "welcome",
+    "source": "announce",
+    "date": "2026-11-14",
+    "title": {
+      "ru": "Добро пожаловать в PURP LAUNCHER",
+      "uk": "Ласкаво просимо до PURP LAUNCHER",
+      "en": "Welcome to PURP LAUNCHER"
+    },
+    "text": {
+      "ru": "Здесь будут важные объявления о лаунчере и его выпусках.",
+      "uk": "Тут будуть важливі оголошення про лаунчер та його випуски.",
+      "en": "Find important announcements about the launcher and its releases here."
+    }
+  },
+  {
+    "id": "news-feed",
+    "source": "purp",
+    "date": "2026-11-14",
+    "title": {
+      "ru": "Лента новостей PURP",
+      "uk": "Стрічка новин PURP",
+      "en": "PURP news feed"
+    },
+    "text": {
+      "ru": "Здесь можно читать о новых функциях и исправлениях PURP LAUNCHER.",
+      "uk": "Тут можна читати про нові функції та виправлення PURP LAUNCHER.",
+      "en": "Read about new features and fixes for PURP LAUNCHER here."
+    }
+  }
+]
