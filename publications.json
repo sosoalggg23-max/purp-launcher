@@ -30,3 +30,36 @@
     }
   }
 ]
+[
+  {
+  "id": "purp-update-news",
+  "source": "purp",
+  "date": "2026-11-15T12:00:00Z",
+  "title": {
+    "ru": "Что нового в PURP Launcher",
+    "uk": "Що нового в PURP Launcher",
+    "en": "What’s new in PURP Launcher"
+  },
+  "text": {
+    "ru": "Мы продолжаем развивать PURP Launcher. Улучшили интерфейс главной страницы и настроек, добавили создание пустых сборок и импорт сборок. В каталоге доступны моды из Modrinth и CurseForge. Также дорабатываем перевод описаний, поиск и отображение установленных модов. В планах — улучшение диагностики ошибок, стабильности лаунчера и языкового выбора в установщике. Нашли ошибку или есть идея? Напишите нам через GitHub Issues или Discord.",
+    "uk": "Ми продовжуємо розвивати PURP Launcher. Покращили інтерфейс головної сторінки та налаштувань, додали створення порожніх збірок та імпорт збірок. У каталозі доступні моди з Modrinth і CurseForge. Також покращуємо переклад описів, пошук і відображення встановлених модів. У планах — покращення діагностики помилок, стабільності лаунчера та вибору мови в інсталяторі. Помітили помилку або маєте ідею? Напишіть нам через GitHub Issues або Discord.",
+    "en": "We’re continuing to improve PURP Launcher. We’ve updated the home page and settings interface, added empty pack creation and pack import. The catalog includes mods from Modrinth and CurseForge. We’re also working on description translations, search, and installed mod status. Next, we plan to improve crash diagnostics, launcher stability, and language selection in the installer. Found a bug or have an idea? Contact us through GitHub Issues or Discord."
+  }
+},
+{
+  "id": "purp-discord-announcement",
+  "source": "announce",
+  "date": "2026-11-15T12:05:00Z",
+  "title": {
+    "ru": "Присоединяйтесь к PURP в Discord",
+    "uk": "Приєднуйтеся до PURP у Discord",
+    "en": "Join PURP on Discord"
+  },
+  "text": {
+    "ru": "Заходите на сервер PURP Launcher в Discord! Там публикуются новости и объявления проекта. Вы также можете сообщить об ошибке или поделиться идеей по улучшению лаунчера.",
+    "uk": "Приєднуйтеся до сервера PURP Launcher у Discord! Там публікуються новини та оголошення проєкту. Ви також можете повідомити про помилку або поділитися ідеєю щодо покращення лаунчера.",
+    "en": "Join the PURP Launcher Discord server! Follow project news and announcements, report bugs, and share ideas for improving the launcher."
+  },
+  "link": "https://discord.gg/X9m2CGwED"
+ }
+]
