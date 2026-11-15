@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PURP Launcher для Minecraft Java Edition. Сборки, моды, шейдеры и управление мирами в одном лаунчере для Windows.">
+  <meta name="theme-color" content="#100b19">
+  <title>PURP Launcher — лаунчер Minecraft для Windows</title>
+  <link rel="icon" href="./assets/logo.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./news.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <header class="shell top">
+    <a class="brand" href="#main"><img src="./assets/logo.png" alt="" width="44" height="44"><span class="wordmark">PURP <small>LAUNCHER</small></span></a>
+    <nav aria-label="Основное меню">
+      <a href="#features">Возможности</a>
+      <a href="#news">Новости</a>
+      <a href="#guide">Помощь</a>
+    </nav>
+    <a class="top-download" href="#download">Скачать <span aria-hidden="true">↓</span></a>
+  </header>
+  <main id="main">
+    <section class="shell hero" aria-labelledby="title">
+      <img class="hero-art" src="./assets/scene-grief.jpg" alt="" width="1280" height="720" fetchpriority="high">
+      <div class="hero-inner">
+        <p class="edition">Лаунчер для Minecraft Java Edition</p>
+        <h1 id="title">Твой Minecraft.<br><em>Твои правила.</em></h1>
+        <p class="intro">Создавай свои сборки, устанавливай моды и шейдеры, управляй мирами из одного лаунчера.</p>
+        <div class="actions">
+          <a class="button" href="https://github.com/sosoalggg23-max/purp-launcher/releases/download/v0.1.0/PURP-Launcher-0.1.0-Windows-x64.exe">↓ Скачать для Windows</a>
+          <a class="secondary" href="#features">Что умеет PURP <span aria-hidden="true">↘</span></a>
+        </div>
+        <p class="version">0.1.0 Beta · Windows x64</p>
+      </div>
+    </section>
+
+    <section id="features" class="shell section" aria-labelledby="features-title">
+      <h2 id="features-title">Собери игру под себя</h2>
+      <div class="features">
+        <article class="feature feature-main">
+          <h3>Своя сборка с нуля</h3>
+          <p>Выбери версию Minecraft и загрузчик. У каждой сборки свои моды, настройки и миры.</p>
+          <ul class="tags" aria-label="Поддерживаемые загрузчики">
+            <li>Vanilla</li><li>Fabric</li><li>Forge</li><li>NeoForge</li><li>Quilt</li>
+          </ul>
+        </article>
+        <article class="feature feature-mods">
+          <h3>Моды и шейдеры</h3>
+          <p>Ищи контент в Modrinth и CurseForge. Смотри размер файла до загрузки и подбирай версии под свою сборку.</p>
+          <ul class="tags" aria-label="Каталоги контента">
+            <li>Modrinth</li><li>CurseForge</li>
+          </ul>
+        </article>
+        <article class="feature">
+          <h3>Миры и резервные копии</h3>
+          <p>Открывай папки миров, переноси сборки и сохраняй копии. Если игра вылетит, открой журнал и рекомендации в лаунчере.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="news" class="shell section" aria-labelledby="news-title">
+      <div class="heading-row">
+        <h2 id="news-title">Новости и обновления</h2>
+        <a href="https://github.com/sosoalggg23-max/purp-launcher/releases">История релизов ↗</a>
+      </div>
+      <div class="news-grid">
+        <article class="news-card">
+          <img src="./assets/scene-grief.jpg" alt="" loading="lazy" width="640" height="240">
+          <div><p class="meta">Релиз</p><h3>PURP Launcher 0.1.0 Beta</h3><p>Первый публичный выпуск для Windows. Попробуй лаунчер и расскажи, что стоит улучшить.</p>
+          <a href="https://github.com/sosoalggg23-max/purp-launcher/releases/tag/v0.1.0">Подробнее о релизе ↗</a></div>
+        </article>
+        <article class="news-card">
+          <img src="./assets/scene-cozy.jpg" alt="" loading="lazy" width="640" height="240">
+          <div><p class="meta">В планах</p><h3>Меню, заголовки и языки установщика</h3><p>Обновим оформление меню и правила для заголовков новостей. В установщике появится выбор русского, украинского и английского. В 0.1.0 установщик доступен на русском.</p></div>
+        </article>
+      </div>
+      <div id="publications" class="news-grid live-news"></div>
+      <noscript><p>Публикации доступны <a href="https://github.com/sosoalggg23-max/purp-launcher/blob/main/publications.json">в ленте проекта</a>.</p></noscript>
+    </section>
+
+    <section id="guide" class="shell section guide" aria-labelledby="guide-title">
+      <div class="guide-title"><h2 id="guide-title">Быстрый старт</h2>
+        <p>Установка, первая сборка и помощь.</p>
+      </div>
+      <div class="guide-questions">
+      <details open><summary>Как установить лаунчер?</summary>
+        <p>Скачай файл <strong>PURP-Launcher-0.1.0-Windows-x64.exe</strong>, запусти его, выбери папку и нажми «Установить».</p>
+      </details>
+      <details><summary>Как создать сборку и добавить моды?</summary>
+        <p>Открой «Версии → Мои сборки → Создать сборку», выбери версию Minecraft и загрузчик. Затем открой «Моды» и проверь, что выбрана нужная сборка.</p>
+      </details>
+      <details><summary>Куда сообщить об ошибке?</summary>
+        <p>Открой <a href="https://github.com/sosoalggg23-max/purp-launcher/issues">GitHub Issues</a>. Укажи версию лаунчера, версию Minecraft, загрузчик и шаги, после которых возникла ошибка. При вылете приложи отчёт из «Журнала и диагностики», предварительно убрав личные данные.</p>
+      </details>
+      </div>
+    </section>
+
+    <section id="download" class="shell section">
+      <div class="download">
+        <div><h2>Скачать PURP Launcher</h2><p>0.1.0 Beta для Windows x64</p></div>
+        <a class="button" href="https://github.com/sosoalggg23-max/purp-launcher/releases/download/v0.1.0/PURP-Launcher-0.1.0-Windows-x64.exe">↓ Скачать установщик</a>
+      </div>
+    </section>
+  </main>
+  <footer class="shell footer">
+    <p>PURP Launcher — независимый проект для Minecraft Java Edition.</p>
+    <a href="https://github.com/sosoalggg23-max/purp-launcher/issues">Обратная связь ↗</a>
+  </footer>
+</body>
+</html>
